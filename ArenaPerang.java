@@ -20,8 +20,7 @@ public class ArenaPerang {
             for (int i = 0; i < gelombangMusuh.length; i++) {
                 if (gelombangMusuh[i].healthPoint > 0) {
                     System.out.println(
-                            (i + 1) + ". " + gelombangMusuh[i].namaMusuh + " (HP: " + gelombangMusuh[i].healthPoint
-                                    + ")");
+                            (i + 1) + ". " + gelombangMusuh[i].namaMusuh + " (HP: " + gelombangMusuh[i].healthPoint+ ")");
                 } else {
                     System.out.println((i + 1) + ". " + gelombangMusuh[i].namaMusuh + " [TEWAS] ");
                 }
